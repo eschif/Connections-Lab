@@ -1,0 +1,35 @@
+html, body {
+  margin: 30;
+  padding: 30;
+  background-color: lavender;
+}
+title {
+  color: forestgreen;
+}
+
+p {
+  color: cornflowerblue;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 3px 3px 1px rgb(66, 77, 138);
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img {
+  display: block;
+  margin: auto;
+  opacity: 95%;
+  border: 60;
+	padding: 60;
+}
+
+script {
+  border: 60;
+	padding: 60;
+  margin: 60;
+}
+
+canvas {
+  display: block;
+}
