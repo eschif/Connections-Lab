@@ -1,0 +1,135 @@
+body {
+    padding: 20px;
+    background-color: #f3e3f4;
+    /* background-image: url("media/beadhorse.png"); */
+    background-size: cover;
+    background-repeat:round;
+    font-family: 'Phudu', cursive;
+}
+
+.horse_activities {
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    background-color: #e4b97881;
+    border-radius: 30px;
+}
+
+.project_section{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project_heading {
+    color: red;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.project_description {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    font-weight: 300;
+    font-size: large;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#activity1 {
+    display: flex;
+    transform: translateX(55vw);
+    transform: translateY(8vh);
+}
+
+#activity2 {
+    display: flex;
+    transform: translateX(45vw);
+    transform: translateY(15vh);
+}
+
+#activity3 {
+    display: flex;
+    transform: translateX(25vw);
+    transform: translateY(35vh);
+}
+
+#activity4 {
+    display: flex;
+    transform: translateX(10vw);
+    transform: translateY(40vh);
+}
+
+.project_video {
+    width: 50%;
+    min-width: 320px;
+}
+
+.project_image {
+    width: 240px;
+}
+
+#crop_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation-name: rotation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation { 
+    0% {
+        /* transform-origin: top left; */
+        transform: rotate(0.2turn);
+    }
+    18% {
+        /* transform-origin: top left; */
+        transform: rotate(0.8turn);
+    }
+    36% {
+        /* transform-origin: top left; */
+        transform: rotate(1.3turn);
+    }
+    54% {
+        /* transform-origin: top left; */
+        transform: rotate(1turn);
+    }
+    70% {
+        /* transform-origin: top left; */
+        transform: rotate(1.5turn);
+    } 
+}
+
+.project_video {
+    width: 30vw;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-20vw);
+    }
+    100% {
+        transform: translateX(20vw);
+}
+
+/*set a maximum width limit
+.main-container {
+    max-width: 980px;
+    width: 90%;
+    margin: 10px auto;
+}*/
+
+@media (max-width: 610px) {
+    .project_image {
+        width: 360px;
+        margin-top: 20px;
+    }
+}
