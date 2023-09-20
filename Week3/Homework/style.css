@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(232, 255, 223);
+    height : 3000px;
+}
+
+.project_heading {
+    margin : 300px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tourney', cursive;
+    font-size: 35px;
+}
+
+.project_para {
+    margin : 100px 300px;
+    padding-top: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tektur', cursive;
+    font-size: 20px;
+    color: rgb(8, 75, 80);
+}
+
+#project_audio {
+    margin : 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#minecraftTree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
