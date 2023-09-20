@@ -25,6 +25,7 @@ body {
 
 #project_audio {
     margin : 100px;
+    padding : 10px 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
