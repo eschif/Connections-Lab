@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+    font-family: Verdana sans-serif;
+    color: rgb(14, 119, 0);
+}
+
+.project__heading {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 100px 0;
+    color: rgb(94, 138, 58);
+}
+
+#h1-tree {
+    font-style: italic;
+}
+
+.project__subheading {
+    display: flex;
+    justify-content: center;
+}
+
+.project__location {
+    display: flex;
+    justify-content: center;
+}
+
+.project__description {
+    display: flex;
+    justify-content: center;
+
+}
+
+.project__info {
+    color: rgb(141, 180, 0);
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0 150px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.project__footer {
+    justify-content: center;
+    text-align: center;
+    padding: 45px;
+    color: rgb(58, 138, 42);
+}
