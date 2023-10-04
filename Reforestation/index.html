@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Reforestation Map </title>
-    <link href="style.css" rel="stylesheet"/>
-</head>
-<body>
-    <h1 class="project__heading"> Re<span id="h1-tree">tree</span>ving Ecodata </h1>
-    <p class="project__subheading" id="refor-proj-name">Reforestation project name: </p>
-    <p class="project__info" id="name"></p>
-    <p class="project__location" id="location">Location: </p>
-    <p class="project__info" id="loc"></p>
-    <p class="project__description" id="description">Description: </p>
-    <p class="project__info" id="desc"></p>
+    <title> Retreeving Ecodata </title>
+
+    <!-- Reforestation Mode Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Tektur&family=Tourney:ital,wght@1,100&display=swap" rel="stylesheet">
     
+    <!-- Deforestation Mode Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tektur&family=Tourney:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <!-- Subheadings Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@200&family=Rubik+Iso&family=Tektur&family=Tourney:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+    <h1 class="project__heading"> <span id="h1-tree">Reforestation Mode</span></h1>
+    <label class="toggle" id="toggler">
+        <input class="toggle-input" type="checkbox" />
+        <span class="toggle-label" id="toggle-setting" data-on="ON" data-off="OFF"></span>
+        <span class="toggle-handle"></span>
+     </label>
+     <section class= "upper__info">
+        <p class="project__subheading" id="refor-proj-name"></p>
+        <p class="project__info" id="name"></p>
+        <p class="project__location" id="location"></p>
+        <p class="project__info" id="loc"></p>
+    </section>
+   
+    <div>
+        <p class="project__description" id="description"></p>
+        <p class="project__info" id="desc"></p>
+    </div>
+    <!-- <div class="project__map" id="map">
+        <iframe width="670" height="490" frameborder="0" src="https://www.globalforestwatch.org/embed/map/?map=eyJkYXRhc2V0cyI6W3siZGF0YXNldCI6InBvbGl0aWNhbC1ib3VuZGFyaWVzIiwibGF5ZXJzIjpbImRpc3B1dGVkLXBvbGl0aWNhbC1ib3VuZGFyaWVzIiwicG9saXRpY2FsLWJvdW5kYXJpZXMiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX0seyJkYXRhc2V0IjoidHJlZS1jb3Zlci1nYWluIiwibGF5ZXJzIjpbInRyZWUtY292ZXItZ2Fpbi0yMDAxLTIwMjAiXSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX0seyJkYXRhc2V0IjoidHJlZS1jb3Zlci1sb3NzIiwibGF5ZXJzIjpbInRyZWUtY292ZXItbG9zcyJdLCJvcGFjaXR5IjowLCJ2aXNpYmlsaXR5Ijp0cnVlfSx7ImRhdGFzZXQiOiJ0cmVlLWNvdmVyIiwibGF5ZXJzIjpbInRyZWUtY292ZXItMjAxMCJdLCJvcGFjaXR5IjowLCJ2aXNpYmlsaXR5Ijp0cnVlfV19"></iframe>
+    </div> -->
+    <main id="p5-area" ></main>
     <p class="project__footer"> By Elisabeth Schifrin, sourced from <a href="tree-nation.com">tree-nation.com</a></p>
+    
     <script src="app.js"></script>
+    <script src="sketch.js"></script>
+
 </body>
 </html>
