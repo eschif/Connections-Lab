@@ -74,7 +74,7 @@ window.addEventListener('load', function (){
 
         document.getElementById('h1-tree').style.fontFamily = 'Rubik Iso';
 
-        document.getElementById('p5-area').style.display = block;
+        //document.getElementById('p5-area').style.display = block;
         // document.getElementById('defaultCanvas0').style.display = block;
         
 
