@@ -1,7 +1,7 @@
 let deforestMap;
 
 function preload() {
-  deforestMap = loadImage('/media/deforestmap.png');
+  deforestMap = loadImage('media/deforestmap.png');
         }
 
 function setup() {
