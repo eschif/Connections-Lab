@@ -2,7 +2,7 @@ window.addEventListener('load', function (){
     console.log("page is loading");
     // document.getElementById('p5-area').style.display = none;
 
-        let toggle = document.querySelector('.toggle-input');
+        let toggle = document.getElementById('input');
 
         toggle.addEventListener('click', () => {
 
